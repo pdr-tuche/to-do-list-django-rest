@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-j$z^8djsa&%7)1m4u_6$krvoy4)09iffipw3635*&y=clu9cki
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-ALLOWED_HOSTS += 'todo-list-app-4ucdt.ondigitalocean.app'
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
